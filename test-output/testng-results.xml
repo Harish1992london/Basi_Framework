@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="3" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="86552" started-at="2023-02-23T01:37:52 GMT" finished-at="2023-02-23T01:39:18 GMT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="86552" started-at="2023-02-23T01:37:52 GMT" finished-at="2023-02-23T01:39:18 GMT">
+      <class name="com.java.motorcycle.E2E_Test_Case">
+        <test-method status="PASS" signature="SteupMethod()[pri:0, instance:com.java.motorcycle.E2E_Test_Case@d2de489]" name="SteupMethod" is-config="true" duration-ms="8201" started-at="2023-02-23T01:37:52 GMT" finished-at="2023-02-23T01:38:00 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SteupMethod -->
+        <test-method status="FAIL" signature="insurance_Calculate(java.lang.Object)[pri:0, instance:com.java.motorcycle.E2E_Test_Case@d2de489]" name="insurance_Calculate" duration-ms="23897" started-at="2023-02-23T01:38:00 GMT" data-provider="vehData" finished-at="2023-02-23T01:38:24 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Vehicle_List Price=888, Product_startdate=12/12/2020, PriceValidation_Gold=238.00, TC No=1, Vehicle_Annual Mileage=100, Product_insurancesum= 5.000.000,00, Vehicle_Date of Manufacture=09/04/2019, Insurant_Hobby=speeding,Other, SelectOption=Silver, PriceValidation_Ultimate=2,621.00, PriceValidation_Silver=701.00, Vehicle_Make=Honda, Insurant_occupation=Farmer, Vehicle_No of Seats_motorcycle=2, Insurant_LastName=NNN, Product_OptionalProducts=Euro Protection, Vehicle_Enging Performance=666, Insurant_ImageFilePath=??, Vehicle_Model=Motorcycle, Insurant_country=India, Insurant_zipcode=444061, Product_damageinsurance=Partial Coverage, TC Name=Verify Insurance Premium for Honda MotorCycle, Vehicle_CylinderCapacity=333, PriceValidation_Platinum=1,376.00, Insurant_FirstName=Prakash, Insurant_birthdate=12/12/1989, Insurant_gender=Male}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Pricing for gold plan is not matching. expected [238.00] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Pricing for gold plan is not matching. expected [238.00] but found []
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at com.java.motorcycle.E2E_Test_Case.insurance_Calculate(E2E_Test_Case.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insurance_Calculate -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.java.motorcycle.E2E_Test_Case@d2de489]" name="cleanUp" is-config="true" duration-ms="1" started-at="2023-02-23T01:38:24 GMT" finished-at="2023-02-23T01:38:24 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="SteupMethod()[pri:0, instance:com.java.motorcycle.E2E_Test_Case@d2de489]" name="SteupMethod" is-config="true" duration-ms="2867" started-at="2023-02-23T01:38:24 GMT" finished-at="2023-02-23T01:38:27 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SteupMethod -->
+        <test-method status="FAIL" signature="insurance_Calculate(java.lang.Object)[pri:0, instance:com.java.motorcycle.E2E_Test_Case@d2de489]" name="insurance_Calculate" duration-ms="23067" started-at="2023-02-23T01:38:27 GMT" data-provider="vehData" finished-at="2023-02-23T01:38:50 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Vehicle_List Price=888, Product_startdate=12/12/2025, PriceValidation_Gold=238.00, TC No=2, Vehicle_Annual Mileage=100, Product_insurancesum= 20.000.000,00, Vehicle_Date of Manufacture=09/04/2001, Insurant_Hobby=speeding,Other, SelectOption=Gold, PriceValidation_Ultimate=2,626.00, PriceValidation_Silver=702.00, Vehicle_Make=Volvo, Insurant_occupation=Farmer, Vehicle_No of Seats_motorcycle=2, Insurant_LastName=NNN, Product_OptionalProducts=Euro Protection, Vehicle_Enging Performance=900, Insurant_ImageFilePath=??, Vehicle_Model=Scooter, Insurant_country=Sweden, Insurant_zipcode=444061, Product_damageinsurance=Partial Coverage, TC Name=Verify Insurance Premium for Volvo Scooter, Vehicle_CylinderCapacity=900, PriceValidation_Platinum=1,379.00, Insurant_FirstName=Seema, Insurant_birthdate=12/12/1977, Insurant_gender=Female}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Pricing for gold plan is not matching. expected [238.00] but found [793.00]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Pricing for gold plan is not matching. expected [238.00] but found [793.00]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at com.java.motorcycle.E2E_Test_Case.insurance_Calculate(E2E_Test_Case.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insurance_Calculate -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.java.motorcycle.E2E_Test_Case@d2de489]" name="cleanUp" is-config="true" duration-ms="1" started-at="2023-02-23T01:38:50 GMT" finished-at="2023-02-23T01:38:50 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="SteupMethod()[pri:0, instance:com.java.motorcycle.E2E_Test_Case@d2de489]" name="SteupMethod" is-config="true" duration-ms="4446" started-at="2023-02-23T01:38:50 GMT" finished-at="2023-02-23T01:38:55 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SteupMethod -->
+        <test-method status="FAIL" signature="insurance_Calculate(java.lang.Object)[pri:0, instance:com.java.motorcycle.E2E_Test_Case@d2de489]" name="insurance_Calculate" duration-ms="23235" started-at="2023-02-23T01:38:55 GMT" data-provider="vehData" finished-at="2023-02-23T01:39:18 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Vehicle_List Price=1000, Product_startdate=12/12/2025, PriceValidation_Gold=87.00, TC No=3, Vehicle_Annual Mileage=100, Product_insurancesum= 3.000.000,00, Vehicle_Date of Manufacture=09/04/1989, Insurant_Hobby=speeding,Other, SelectOption=Ultimate, PriceValidation_Ultimate=967.00, PriceValidation_Silver=258.00, Vehicle_Make=Ford, Insurant_occupation=Farmer, Vehicle_No of Seats_motorcycle=2, Insurant_LastName=NNN, Product_OptionalProducts=Euro Protection, Vehicle_Enging Performance=100, Insurant_ImageFilePath=??, Vehicle_Model=Moped, Insurant_country=Sweden, Insurant_zipcode=444061, Product_damageinsurance=Partial Coverage, TC Name=Verify Insurance Premium for Ford Moped, Vehicle_CylinderCapacity=100, PriceValidation_Platinum=507.00, Insurant_FirstName=Savali, Insurant_birthdate=12/12/1956, Insurant_gender=Female}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.Exception">
+            <message>
+              <![CDATA[Value is not present in dropdown for webelemtn: [[ChromeDriver: chrome on WINDOWS (89158f7825dadd3da280890a4bea73ed)] -> id: insurancesum]Value to be selected 3.000.000,00]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Exception: Value is not present in dropdown for webelemtn: [[ChromeDriver: chrome on WINDOWS (89158f7825dadd3da280890a4bea73ed)] -> id: insurancesum]Value to be selected 3.000.000,00
+at com.java.reusableComponants.commonMethods.selectDropdownValue(commonMethods.java:33)
+at com.java.pageObject.Enter_Product_Data.enterProductData(Enter_Product_Data.java:36)
+at com.java.motorcycle.E2E_Test_Case.insurance_Calculate(E2E_Test_Case.java:29)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Exception -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insurance_Calculate -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:com.java.motorcycle.E2E_Test_Case@d2de489]" name="cleanUp" is-config="true" duration-ms="0" started-at="2023-02-23T01:39:18 GMT" finished-at="2023-02-23T01:39:18 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.java.motorcycle.E2E_Test_Case -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
