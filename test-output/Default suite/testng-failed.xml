@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT"
+	name="Failed suite [Default suite]">
+	<test thread-count="5" name="Default test(failed)">
+		<classes>
+			<class name="com.java.motorcycle.Error_Tests">
+				<methods>
+					<include name="error_Message_Cylinder_Capacity" />
+					<include name="cleanUp" />
+					<include name="SteupMethod" />
+				</methods>
+			</class> <!-- com.java.motorcycle.Error_Tests -->
+		</classes>
+	</test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
